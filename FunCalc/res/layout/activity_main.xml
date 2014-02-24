@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/b">
+
+    <Button
+        android:id="@+id/RKurang"
+        android:layout_width="139dp"
+        android:layout_height="104dp"
+        android:layout_x="156dp"
+        android:layout_y="190dp"
+        android:background="@drawable/min" />
+
+    <Button
+        android:id="@+id/RBagi"
+        android:layout_width="135dp"
+        android:layout_height="110dp"
+        android:layout_x="156dp"
+        android:layout_y="310dp"
+        android:background="@drawable/dev" />
+
+    <Button
+        android:id="@+id/RKali"
+        android:layout_width="132dp"
+        android:layout_height="110dp"
+        android:layout_x="8dp"
+        android:layout_y="309dp"
+        android:background="@drawable/multi" />
+
+    <Button
+        android:id="@+id/RTambah"
+        android:layout_width="135dp"
+        android:layout_height="100dp"
+        android:layout_x="6dp"
+        android:layout_y="193dp"
+        android:background="@drawable/plus" />
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="fill_parent"
+        android:layout_height="39dp"
+        android:layout_x="0dp"
+        android:layout_y="147dp"
+        android:gravity="center"
+        android:text="Hasil"
+        android:textColor="#FAFAD2"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/I2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="118dp"
+        android:background="#00ffffff"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Input Second Number"
+        android:numeric="integer"
+        android:textColorHint="#FAFAD2"
+        android:textColor="#FAFAD2" />
+
+    <EditText
+        android:id="@+id/I1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="86dp"
+        android:background="#00ffffff"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Input First Number"
+        android:numeric="integer"
+        android:textColorHint="#FAFAD2"
+        android:textColor="#FAFAD2" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="298dp"
+        android:layout_height="64dp"
+        android:layout_x="7dp"
+        android:layout_y="5dp"
+        android:src="@drawable/jp" />
+
+</AbsoluteLayout>
